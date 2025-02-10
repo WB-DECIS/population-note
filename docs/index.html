@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="World Bank">
+<meta name="dcterms.date" content="2024-12-23">
+
+<title>Population Estimates and Projections for the World Bank</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-70224a413e6c99561706695f92db624c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="custom.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Population Estimates and Projections for the World Bank</li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="https://datatopics.worldbank.org/world-development-indicators/img/logo-wb-header-en.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#non-technical-summary" id="toc-non-technical-summary" class="nav-link" data-scroll-target="#non-technical-summary">Non-technical summary</a></li>
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><span class="header-section-number">1</span> Background</a>
+  <ul class="collapse">
+  <li><a href="#population" id="toc-population" class="nav-link" data-scroll-target="#population"><span class="header-section-number">1.1</span> Population</a></li>
+  <li><a href="#wdis-population-estimates" id="toc-wdis-population-estimates" class="nav-link" data-scroll-target="#wdis-population-estimates"><span class="header-section-number">1.2</span> WDI’s population estimates</a></li>
+  <li><a href="#frequency" id="toc-frequency" class="nav-link" data-scroll-target="#frequency"><span class="header-section-number">1.3</span> Frequency of updates</a></li>
+  </ul></li>
+  <li><a href="#sourceselection" id="toc-sourceselection" class="nav-link" data-scroll-target="#sourceselection"><span class="header-section-number">2</span> Source of data and selection criteria</a>
+  <ul class="collapse">
+  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources"><span class="header-section-number">2.1</span> Data sources</a></li>
+  <li><a href="#criteria" id="toc-criteria" class="nav-link" data-scroll-target="#criteria"><span class="header-section-number">2.2</span> Selection criteria</a></li>
+  </ul></li>
+  <li><a href="#adjustment" id="toc-adjustment" class="nav-link" data-scroll-target="#adjustment"><span class="header-section-number">3</span> Adjustments to acquired data and calculations</a>
+  <ul class="collapse">
+  <li><a href="#WPP" id="toc-WPP" class="nav-link" data-scroll-target="#WPP"><span class="header-section-number">3.1</span> UN WPP</a></li>
+  <li><a href="#Eurostat" id="toc-Eurostat" class="nav-link" data-scroll-target="#Eurostat"><span class="header-section-number">3.2</span> Eurostat</a></li>
+  <li><a href="#NSO" id="toc-NSO" class="nav-link" data-scroll-target="#NSO"><span class="header-section-number">3.3</span> National Statistical Offices (NSOs)</a></li>
+  <li><a href="#GNI" id="toc-GNI" class="nav-link" data-scroll-target="#GNI"><span class="header-section-number">3.4</span> Adjustments of geographical areas to six economies only for GNI/GDP per capita calculation</a></li>
+  <li><a href="#disaggregate" id="toc-disaggregate" class="nav-link" data-scroll-target="#disaggregate"><span class="header-section-number">3.5</span> Population by age, sex, urban/rural</a></li>
+  <li><a href="#aggregate" id="toc-aggregate" class="nav-link" data-scroll-target="#aggregate"><span class="header-section-number">3.6</span> Aggregates by income and regional groups</a></li>
+  </ul></li>
+  <li><a href="#projections" id="toc-projections" class="nav-link" data-scroll-target="#projections"><span class="header-section-number">4</span> Projections</a>
+  <ul class="collapse">
+  <li><a href="#popprojections" id="toc-popprojections" class="nav-link" data-scroll-target="#popprojections"><span class="header-section-number">4.1</span> Population projections</a></li>
+  <li><a href="#wppprojections" id="toc-wppprojections" class="nav-link" data-scroll-target="#wppprojections"><span class="header-section-number">4.2</span> Economies that use UN WPP estimates</a></li>
+  <li><a href="#nsoprojections" id="toc-nsoprojections" class="nav-link" data-scroll-target="#nsoprojections"><span class="header-section-number">4.3</span> Economies that use NSO or Eurostat estimates</a></li>
+  <li><a href="#frequency-of-updates" id="toc-frequency-of-updates" class="nav-link" data-scroll-target="#frequency-of-updates"><span class="header-section-number">4.4</span> Frequency of updates</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/WB-DECIS/Population-Technical-Note/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/WB-DECIS/Population-Technical-Note/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Population Estimates and Projections for the World Bank</h1>
+<p class="subtitle lead">Technical note</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>World Bank </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 23, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var searchBox = document.querySelector("#quarto-search");
+    if (searchBox) {
+      var textDiv = document.createElement("div");
+      textDiv.innerHTML = `
+        <div id="sidebar-download">
+          <a href="https://datatopics.worldbank.org/world-development-indicators/release-note/publications/Population_Estimates_and_Projections_for_the_World_Bank.pdf" target="_blank">
+            <i class="bi bi-file-earmark-pdf"></i> Download PDF
+          </a>
+        </div>
+      `;
+      textDiv.style.marginTop = "10px";
+      searchBox.parentNode.insertBefore(textDiv, searchBox.nextSibling);
+    }
+  });
+</script>
+<section id="introduction" class="level1 unnumbered">
+<h1 class="unnumbered">Introduction</h1>
+<p>This technical note describes the methodology implemented by the World Bank to generate population estimates and projections that are reported in the <a href="https://databank.worldbank.org/source/world-development-indicators">World Development Indicators (WDI) database</a> and the <a href="https://databank.worldbank.org/reports.aspx?source=health-nutrition-and-population-statistics:-population-estimates-and-projections">Population Estimates and Projections database</a>. The next page summarizes the four steps of the methodology. The summary is followed by four sections that elaborate on each step.</p>
+<p>Please cite the technical note as follows:</p>
+<p>World Bank. 2024. “Population Estimates and Projections for the World Bank: Technical Note.” Edition December 2024. Available at <a href="https://datanalytics.worldbank.org/Population-Technical-Note/" class="uri">https://datanalytics.worldbank.org/Population-Technical-Note/</a></p>
+<p><span class="smallcaps"><em>This note was prepared by Emi Suzuki, Umar Serajuddin and Daniel Gerszon Mahler of the World Bank.</em></span></p>
+</section>
+<section id="non-technical-summary" class="level1 unnumbered">
+<h1 class="unnumbered">Non-technical summary</h1>
+<section id="section-1-background" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="section-1-background"><a href="#background">Section 1</a>: Background</h3>
+<p>The World Bank publishes annual mid-year <a href="#population">population</a> estimates and projections for over 200 economies from the year 1960 onwards in the <a href="https://databank.worldbank.org/source/world-development-indicators">World Development Indicators (WDI) database</a> (estimates only) and in the <a href="https://databank.worldbank.org/reports.aspx?source=health-nutrition-and-population-statistics:-population-estimates-and-projections">Population Estimates and Projections database</a> (estimates and projections, the latter up to the year 2050) <a href="#frequency">biannually</a>.</p>
+</section>
+<section id="section-2-source-of-data-and-selection-criteria" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="section-2-source-of-data-and-selection-criteria"><a href="#sourceselection">Section 2</a>: Source of data and selection criteria</h3>
+<p>The main <a href="#sources">sources</a> of the total population estimates are (1) World Population Prospects (UN WPP), produced by the Population Division (UNPD) of the United Nations Department of Economic and Social Affairs, and (2) national statistical offices (NSOs). For NSOs, the World Bank collects data directly from their publications/databases or through Eurostat’s database. A set of <a href="#criteria">criteria</a> were developed to determine whether estimates from NSOs or UN WPP would be used for an economy. For NSO population estimates to be used, they must be deemed sufficiently reliable, available as an annual time-series, and reasonably consistent with the World Bank’s definition of population and an economy’s territory.</p>
+</section>
+<section id="section-3-adjustments-to-acquired-data-and-calculations" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="section-3-adjustments-to-acquired-data-and-calculations"><a href="#adjustment">Section 3</a>: Adjustments to acquired data and calculations</h3>
+<p>In cases where the WDI uses NSO estimates, if there are missing data, a short extrapolation of six months or one year is applied when data are missing for the latest year, and UN WPP estimates are used when data are missing for early years. <a href="#NSO">Adjustments are made to NSO estimates</a> in cases where the reference time of the NSO estimates is different from the mid-year. If NSO estimates are for beginning-of year (or end-of-year), mid-year population is calculated as the arithmetic mean of two beginning-of year (or end-of-year) estimates. Adjustments are also made to the population estimates used only for <a href="#GNI">GNI/GDP per capita calculations</a> in cases where the geographical coverage of total GNI/GDP data is different from the geographical coverage of the population estimates. For the <a href="#disaggregate">population estimates by age, sex and urban/rural</a>, the proportions from UN WPP (for age and sex) and UNPD’s <a href="https://population.un.org/wup/">World Urbanization Prospects</a> (UN WUP) (for urban/rural) are taken and multiplied by the WDI’s total population. The total population and population by age, sex, and urban/rural are calculated for the <a href="#aggregate">income/regional groups</a> by summing up economy-level data.</p>
+</section>
+<section id="section-4-projections" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="section-4-projections"><a href="#projections">Section 4</a>: Projections</h3>
+<p>For population projections, medium scenario <a href="#wppprojections">projections of UN WPP</a> are directly used for the economies where the World Bank uses UN WPP estimates. The <a href="https://www.avenirhealth.org/software-spectrum.php">Spectrum software</a> is used to generate <a href="{#nsoprojections}">projections for the economies where NSO (and Eurostat) estimates are used</a>.</p>
+</section>
+</section>
+<section id="background" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Background</h1>
+<p>This section briefly describes the population estimates in the WDI database.</p>
+<section id="population" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="population"><span class="header-section-number">1.1</span> Population</h2>
+<p>Population refers to the total number of alive people in a specific area, such as an economy. It can also refer to the number of people in a specific age group, or by sex. Population are also defined by a reference time period. For annual population estimates, the most commonly used reference times include the beginning of the year (January 1st), the mid-year (July 1st or June 30th), or the end of the year (December 31st). Annual population estimates can also be defined as the average number of people in an area over the year, which is typically close to the mid-year population estimate.</p>
+<p>Population censuses, the official counting of population within the territory of an economy, play a critical role in producing population estimates. Most economies conduct a population census at least once every ten years. Typically, population estimates after a census (postcensal estimates) are calculated by using the population data from the census as a base, and then by adding births, subtracting deaths, and adding net migration using empirical data. In the calculation, the census data should be adjusted for coverage error such as under- (or over-) counts, as well as for a reference time of the year. When a subsequent census is conducted, intercensal estimates can be produced by adjusting the postcensal estimates.</p>
+<p>As opposed to the population estimates, population projections are calculated by using future assumptions of births, deaths, and migration subsequent to the latest year of estimates.</p>
+</section>
+<section id="wdis-population-estimates" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="wdis-population-estimates"><span class="header-section-number">1.2</span> WDI’s population estimates</h2>
+<p>The World Bank publishes annual mid-year population estimates and projections for over 200 economies from the year 1960 in the <a href="https://databank.worldbank.org/source/world-development-indicators">World Development Indicators (WDI) database</a> (estimates only) and the <a href="https://databank.worldbank.org/reports.aspx?source=health-nutrition-and-population-statistics:-population-estimates-and-projections">Population Estimates and Projections database</a> (both estimates and projections, the latter up to the year 2050) biannually.</p>
+<p>These population estimates serve as the denominator for many per capita measures calculated and published by the World Bank, including per capita GNI estimates that are used as one of the determinants of the Bank’s lending rates and credit terms for economy operations. The population estimates and projections are also used to calculate World Bank’s poverty estimates, such as the number of people living in poverty. In addition, they are used to produce population weighted averages for regions and income groups.</p>
+</section>
+<section id="frequency" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="frequency"><span class="header-section-number">1.3</span> Frequency of updates</h2>
+<p>Typically, the population estimates in the WDI database are updated twice a year. Every year on July 1st, population time-series estimates from 1960 to the previous calendar year are published, and the estimates are updated again in mid-December. In each release, the population estimates are prepared by Development Data Group (DECDG), and reviewed and cleared by country economists of the World Bank through the Operational Guidelines exercise (Spring Survey) in March-May for the July 1st release, and through the Fall Survey in September-November for the December release. The Spring Survey and the Fall Survey are annual data collection and review exercises covering national accounts data for borrower economies with World Bank’s country economists.</p>
+</section>
+</section>
+<section id="sourceselection" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Source of data and selection criteria</h1>
+<p>This section describes data sources of the population estimates in the WDI along with the selection criteria of the data sources.</p>
+<section id="sources" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="sources"><span class="header-section-number">2.1</span> Data sources</h2>
+<p>The main sources of the total population estimates are (1) <a href="https://population.un.org/wpp/">World Population Prospects</a> (UN WPP), produced by the Population Division (UNPD) of the <a href="https://www.un.org/development/desa/pd/">United Nations Department of Economic and Social Affairs</a>, and (2) national statistical offices (NSOs). For NSOs, the World Bank collects data directly from their publications/databases or through <a href="https://ec.europa.eu/eurostat/data/database?node_code=earn_ses_monthly">Eurostat’s database</a>. The data source information of each economy is included in country-series metadata in the WDI database and the Population Estimates and Projections database.</p>
+</section>
+<section id="criteria" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="criteria"><span class="header-section-number">2.2</span> Selection criteria</h2>
+<p>For NSO population estimates to be used, they must be deemed sufficiently reliable, available as an annal time-series and reasonably consistent with the World Bank’s definition of population and an economy’s territory. A set of criteria was developed on how to determine whether NSO estimates (including Eurostat) or the UN WPP estimates are used. The purpose of developing these criteria is to be guided by data quality when deciding the population source, while being transparent and objective.</p>
+<ol type="1">
+<li><strong>Reliability</strong>: Reliability is measured by:
+<ol type="1">
+<li>Births are registered from civil registration, which is estimated to be at least 90% complete, or from another source, which is estimated to be reliable by the UNSD. Events may be counted when registered, not when they occurred.</li>
+<li>Deaths are registered from civil registration, which is estimated to be at least 90% complete, or from another source which is estimated to be reliable by the UNSD. Events may be counted when registered, not when they occurred.</li>
+<li>Statistics of births, deaths, and migration are applied for time adjustments, or population estimates are sourced annually from a population register.</li>
+<li>A census has been conducted in the past 15 years, or population figures are compiled from administrative registers.</li>
+</ol></li>
+<li><strong>Availability</strong>: NSO’s estimates must be available in annual time series. Note that NSO’s figures must be estimates, not projections. Estimates are based on a baseline population and empirical data on subsequent births, deaths, and migration, while projections are based on a baseline population and future assumptions of births, deaths, and migration. NSO’s annual time series estimates are used as available, supplemented by UNPD in case for earlier years for which NSO’s annual time series estimates are not available.</li>
+<li><strong>Definition of population</strong>: The NSO uses a definition of population that is reasonably consistent with World Bank’s de-facto definition. For example, population estimates should not include nationals who reside outside of the economy.</li>
+<li><strong>Definition of territory</strong>: Exceptions can be made to the criteria in case the World Bank uses a different territorial definition than the UNPD’s territorial definition; and vice versa.</li>
+</ol>
+<p>The reliability criteria 1.1-1.3 use UN Statistics Division’s <a href="https://unstats.un.org/unsd/demographic-social/products/vitstats/index.cshtml">Population and Vital Statistics Report</a>, and the <a href="https://unstats.un.org/unsd/demographic-social/products/dyb/#metadata">Demographic Yearbook Metadata</a> as the source, while the reliability criterion 1.4 uses the World Bank’s <a href="https://www.worldbank.org/en/programs/statistical-performance-indicators">Statistical Performance Indicators</a>. Two World Bank economies do not figure in the UNSD database: Kosovo and Taiwan. For these economies, the information is gathered from NSO publications. Data for Virgin Islands (U.S.) and Puerto Rico are published by US Census Bureau so the data of the United States are used.</p>
+<p>NSO estimates (including Eurostat) are used when they meet all these criteria, which is roughly one third of all economies in the WDI database. The UN WPP estimates are used for the rest.</p>
+</section>
+</section>
+<section id="adjustment" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Adjustments to acquired data and calculations</h1>
+<p>This section describes which data are acquired from the data sources and any adjustments that are applied for reference time and missing data, as well as additional adjustments and more calculations.</p>
+<section id="WPP" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="WPP"><span class="header-section-number">3.1</span> UN WPP</h2>
+<section id="use-july-1-population-estimates-from-the-un-wpp" class="level3" data-number="3.1.1">
+<h3 data-number="3.1.1" class="anchored" data-anchor-id="use-july-1-population-estimates-from-the-un-wpp"><span class="header-section-number">3.1.1</span> Use July 1 population estimates from the UN WPP</h3>
+<p>The data source of total population for roughly two thirds of all economies in the WDI database is UNPD’s <a href="https://population.un.org/wpp/">World Population Prospects</a> (UN WPP). The UNPD produces population estimates and projections typically every other year. The UN WPP covers years ranging from 1950 to 2100, and the most recent revision of WPP, which was published in July 2024 (WPP 2024 Revision), contains estimates of population and other demographic indicators for 1950-2023, and projections of them for 2024-2100 for 237 economies (<a href="https://population.un.org/wpp/Download/Standard/MostUsed/">United Nations 2024a</a>). The UN WPP 2024 Revision has annual total population for beginning of year (January 1st) as well as for mid-year (July 1st), and the latter is used as is for the WDI database. Mid-year population is typically more appropriate for representing population figures for the whole year, and also to calculate annual per capita figures such as GDP per capita and GNI per capita as well as other rates, rather than January 1st population.</p>
+<p>If the WDI needs a population estimate beyond the latest estimates covered by the UN WPP, medium scenario projections of the UN WPP are used. For example, if the WDI needs population estimates for 2024 for its July 2025 release, but the latest WPP estimates are for 2023, then the WPP projections for 2024 are used.</p>
+<p>The UN WPP takes into account the latest data available, such as censuses, official estimates, demographic surveys, vital event registries, population registries, and other relevant data from NSOs. The UN WPP population estimates are constructed using a cohort-component method, which takes into account the three components of population change – births, deaths and migration – to project the population forward in time (<a href="https://doi.org/10.2307/2332297">Leslie, 1945</a>; <a href="https://link.springer.com/article/10.1023/A:1012569213642">Preston et al., 2001</a>; <a href="https://population.un.org/wpp/Publications/Files/WPP2024_Methodology.pdf">United Nations 2024b</a>). The estimates for each component are taken from relevant data sources and adjusted for under- (or over-) reporting and under- (or over-) enumeration as needed.</p>
+<p>Virtually all censuses have issues of under- (or over) counts. Ideally, after a census, an economy should conduct a post enumeration survey (PES) to measure the magnitude of under- (or over) counts. Economies can make adjustments subsequently. However, many economies often publish census figures without PES and/or without making such adjustments. Under-count is much more common than over-count because missing people during censuses is much more likely to happen than double-counting people (<a href="https://unstats.un.org/unsd/publication/SeriesM/Series_M67Rev3en.pdf">United Nations 2017</a>). Therefore, such census figures are likely to be under-estimated. The UNPD carries out an analysis that takes into account those issues and seeks to establish past population trends by resolving the inconsistencies (<a href="https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/files/documents/2020/Oct/undesa_pd_tp_2020_tp_population_estimates.pdf">Pelletier 2020</a>, <a href="https://population.un.org/wpp/Publications/Files/WPP2024_Methodology.pdf">United Nations 2024b</a>).</p>
+<p>As a result of these adjustments and its methodology, the UN WPP estimates differ from population estimates and census estimates of national statistical offices. These adjustments made in the UN WPP estimates are deemed to reduce potential biases and errors, especially for many low- and middle-income economies, and thus the WDI relies on the UN WPP as the primary source for population estimates for many low- and middle-income economies.</p>
+<p>Mid-year population estimates of UN WPP are directly used in the WDI database with one exception: adjustments are made to UN WPP data for WDI’s Channel Islands, for which UN WPP estimates of Guernsey and Jersey are summed up.</p>
+</section>
+</section>
+<section id="Eurostat" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="Eurostat"><span class="header-section-number">3.2</span> Eurostat</h2>
+<section id="use-average-population-as-they-are" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="use-average-population-as-they-are"><span class="header-section-number">3.2.1</span> Use average population as they are</h3>
+<p>The other main data source of population estimates in the WDI is NSOs, where the data is collected directly from NSO publications/databases, or through <a href="https://ec.europa.eu/eurostat/data/database?node_code=earn_ses_monthly">Eurostat</a>. Eurostat collects population and other demographic data from NSOs for European Union (EU) member states as well as from select non-EU European states. For those economies that meet the WDI selection criteria and for which the Eurostat collects data regularly, the <a href="https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table?lang=en&amp;category=demo.demo_ind">average population in Eurostat database</a> are used as they are, where the average population is calculated as <a href="https://ec.europa.eu/eurostat/cache/metadata/en/demo_gind_esms.htm">the arithmetic mean of the population on January 1st of two consecutive years</a> (<a href="https://ec.europa.eu/eurostat/cache/metadata/en/demo_gind_esms.htm#relatedmd1723209127035">Eurostat 2024</a>). If there are footnotes in Eurostat’s database indicating notes such as provisional data or break in time series, they are included in the WDI footnotes as well.</p>
+</section>
+<section id="missing-data" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="missing-data"><span class="header-section-number">3.2.2</span> Missing data</h3>
+<p>Although the Eurostat database publishes population data from 1960, some economies have missing data for early years such as before 1980s or 1990s. In this case, for missing years, data are taken from NSOs, and used if available. Otherwise, mid-year population data from UN WPP are used.</p>
+<p>For the latest year, Eurostat publishes average population data around the summer of the subsequent year. Therefore, when mid-year population data are needed for the Operational Guidelines exercise around March, the mid-year/average population data for the latest year needed are not available in Eurostat database. Thus, mid-year (or average) population data are sought from NSO websites of each economy and used if available. If they are not available in the NSO websites, a short extrapolation using the exponential growth rate in the past 6 months is applied to generate a population figure for the latest year temporarily in the July update. The growth rates are calculated from the two most recent data points available in the Eurostat database. The extrapolated figures are replaced with newly available Eurostat data in the subsequent WDI population update cycle.</p>
+</section>
+</section>
+<section id="NSO" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="NSO"><span class="header-section-number">3.3</span> National Statistical Offices (NSOs)</h2>
+<section id="use-mid-year-population-or-average-population-as-they-are" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="use-mid-year-population-or-average-population-as-they-are"><span class="header-section-number">3.3.1</span> Use mid-year population or average population as they are</h3>
+<p>In addition to the Eurostat economies, for the economies that meet the WDI selection criteria, NSO population data are directly used for the WDI. Links to official NSO websites are available on the <a href="https://unstats.un.org/home/nso_sites/">UN Statistics Division’s website</a>. NSOs’ population data in time series are searched on the official NSO websites in its databases and publications. If the NSO publishes mid-year (July 1st or June 30th) or average population estimates, the data are taken directly. NSOs often revise/update population estimates, not only for the latest year but also in recent past years. If so, the WDI population estimates are also revised/updated accordingly. If there are footnotes in the NSOs’ database or publications which indicate data are preliminary or there is a break in time series, these notes are included in the WDI footnotes as well.</p>
+</section>
+<section id="adjustments-for-reference-time-of-the-year" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="adjustments-for-reference-time-of-the-year"><span class="header-section-number">3.3.2</span> Adjustments for reference time of the year</h3>
+<p>Some NSOs publish only end-year (or beginning-of year) population estimates. If this is the case, approximation of mid-year estimates is calculated as the arithmetic mean of the end-year (or beginning-of year) estimates of two consecutive years.</p>
+</section>
+<section id="missing-data-1" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="missing-data-1"><span class="header-section-number">3.3.3</span> Missing data</h3>
+<p>Some of the NSOs do not publish time-series population estimates for early years. The missing years range from 1960s to 2000s, depending on the economy. In this case, mid-year population data from UN WPP are used for the missing years.</p>
+<p>If population data for the latest year(s) are not yet available from the NSO, a short extrapolation (typically 1 year or 6 months) is applied using an exponential growth rate to generate a population figure for the latest year(s) temporarily. The exponential growth rates are calculated from the two most recent population data points available from the NSO. The extrapolated figures are replaced with newly available NSO data in the subsequent WDI population update cycle.</p>
+</section>
+</section>
+<section id="GNI" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="GNI"><span class="header-section-number">3.4</span> Adjustments of geographical areas to six economies only for GNI/GDP per capita calculation</h2>
+<p>There are 6 economies (Cyprus, Morocco, Russian Federation, Sudan, Tanzania, Ukraine) for which estimates for total GNI/GDP data and WDI population data cover different geographic areas for part or the entire period since 1960. Adjusted population estimates are calculated separately for the six economies and used only for GNI/GDP per capita calculations to be consistent with the geographic coverage of the numerator – total GNI and total GDP (see table below). These adjusted population estimates are not published in the WDI, as only the original population estimates are published in the WDI.</p>
+<table class="caption-top table">
+<caption><strong>Economies with population adjustments for GNI/GDP per capita calculation purposes</strong></caption>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Economy</th>
+<th>WDI Population coverage</th>
+<th>Geographical coverage of GDP/GNI data</th>
+<th>Adjustments to population for GDP/GNI per capita calculation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Cyprus</td>
+<td>Includes northern Cyprus</td>
+<td>Area controlled by the government of Cyprus (excludes northern Cyprus)</td>
+<td>Eurostat average population is used, which covers only government-controlled area.</td>
+</tr>
+<tr class="even">
+<td>Morocco</td>
+<td>For Morocco only</td>
+<td>For Morocco and Western Sahara</td>
+<td>UN WPP data for Morocco and Western Sahara are added.</td>
+</tr>
+<tr class="odd">
+<td>Russian Federation</td>
+<td>Excludes Crimea</td>
+<td>Includes Crimea (2014 onwards)</td>
+<td>NSO data are used which includes Crimea from 2014 onwards.</td>
+</tr>
+<tr class="even">
+<td>Serbia</td>
+<td>Excludes South Sudan</td>
+<td>Includes South Sudan (up to mid-2011)</td>
+<td>UN WPP data, which has population data for Sudan and South Sudan separately for the entire time series, are added from 1960 to mid-2011.</td>
+</tr>
+<tr class="odd">
+<td>Tanzania</td>
+<td>Includes Zanzibar</td>
+<td>Mainland Tanzania (excludes Zanzibar)</td>
+<td>Proportion of population in Zanzibar of total population is calculatedfrom 1978, 1988, 2002, 2012, 2022 censuses and applied to UN WPP data which includes Zanzibar. Constant rate of change is assumed between the censuses, and the same constant rate of change as the one between 2012 and 2022 censuses is assumed after the 2022 census. Before the 1978 census, the same proportion as the 1978 census is assumed.</td>
+</tr>
+<tr class="even">
+<td>Ukraine</td>
+<td>Includes Crimea</td>
+<td>Excludes Crimea (2014 onwards)</td>
+<td>Population data for Crimea from the Russian NSO are used to subtract Crimea’s population from 2014 onwards from the UN WPP population which includes Crimea.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="disaggregate" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="disaggregate"><span class="header-section-number">3.5</span> Population by age, sex, urban/rural</h2>
+<p>The WDI database also covers population proportions and numbers by age, sex, and urban/rural. The proportions by age and sex are taken from the UN WPP, and proportions by urban/rural are taken from UNPD’s <a href="https://population.un.org/wup/">World Urbanization Prospects</a> (UN WUP). To calculate population numbers by age, sex, and urban/rural, the proportions from the UN WPP or UN WUP are multiplied by the WDI total population estimates.</p>
+</section>
+<section id="aggregate" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="aggregate"><span class="header-section-number">3.6</span> Aggregates by income and regional groups</h2>
+<p>Economies in the WDI are grouped by income, regional and other groups. The sum of the total population or numbers by age, sex, urban/rural are calculated for the income and regional groups, by summing up the specified population of the economies in the group. Averages of proportion for the income/regional groups are calculated by using population weighted averages.</p>
+</section>
+</section>
+<section id="projections" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Projections</h1>
+<p>This section describes the coverage, sources, methodology and timeline of the projections in the Population estimates and projections database.</p>
+<section id="popprojections" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="popprojections"><span class="header-section-number">4.1</span> Population projections</h2>
+<p>In addition to the population estimates, the World Bank also publishes population projections. Population projections give a picture of hypothetical population size and structure in the future that are based on a set of assumptions for future levels and patterns of fertility, mortality and migration. Typically, the population by age and sex of the most recent year is used as a baseline population, and assumptions are made on future levels and patterns of fertility, mortality, and migration based on estimates of the most recent year and past trends leading up to the most recent year.</p>
+<p>The UN WPP 2024 Revision published population projections for 2024-2100, including several scenarios with different fertility assumptions. The medium scenario is most used. The medium scenario projection corresponds to the mean fertility and mortality and median net migration of several thousand distinct trajectories of each demographic component derived using a probabilistic model of the variability in changes over time (<a href="https://population.un.org/wpp/Publications/Files/WPP2024_Methodology.pdf">United Nations 2024</a>). The <a href="https://databank.worldbank.org/source/health-nutrition-and-population-statistics:-population-estimates-and-projections">Population estimates and projections database</a> publishes both population estimates and projections up to 2050, while the WDI database publishes population estimates only.</p>
+</section>
+<section id="wppprojections" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="wppprojections"><span class="header-section-number">4.2</span> Economies that use UN WPP estimates</h2>
+<p>For the economies that use UN WPP estimates for the latest year (which is the baseline population for projections), the UN WPP medium scenario projections for mid-year are directly used for the World Bank projections.</p>
+</section>
+<section id="nsoprojections" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="nsoprojections"><span class="header-section-number">4.3</span> Economies that use NSO or Eurostat estimates</h2>
+<p>For the economies that use NSO or Eurostat estimates for the latest year, projections are generated using <a href="https://www.avenirhealth.org/software-spectrum.php">Spectrum software</a>. Baseline populations and future assumptions on fertility, mortality and migration from UN WPP estimates and medium variant projections are pre-populated into Spectrum, and they are changeable by the user. When generating population projections through Spectrum, only the pre-populated baseline population is replaced with the WDI population by age/sex of the year, and pre-populated future assumptions on fertility, mortality and migration from UN WPP are used as they are. When projections are generated, only the projected total population is taken from Spectrum projection. Future populations by age, sex, urban/rural are then calculated by multiplying the projected total population by the proportions from the UN WPP medium projection or UN WUP.</p>
+</section>
+<section id="frequency-of-updates" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="frequency-of-updates"><span class="header-section-number">4.4</span> Frequency of updates</h2>
+<p>Population projections are generated once the WDI population estimates are finalized internally through the Operational Guidelines exercise or the Fall Survey. The population projections are updated and released biannually at the same time as the WDI population releases that are around July 1st and mid-December.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/wb-decis\.github\.io\/wdi-indicator-selection\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/WB-DECIS/Population-Technical-Note/blob/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/WB-DECIS/Population-Technical-Note/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
