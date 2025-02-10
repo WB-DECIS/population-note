@@ -4,8 +4,8 @@ project:
 
 website:
   title: "Population Estimates and Projections for the World Bank"
-  site-url: "https://wb-decis.github.io/wdi-indicator-selection/"
-  repo-url: "https://github.com/WB-DECIS/Population-Technical-Note"
+  site-url: "https://wb-decis.github.io/population-note/"
+  repo-url: "https://github.com/WB-DECIS/population-note"
   repo-actions: [source, issue]  
   sidebar:
     logo: "https://datatopics.worldbank.org/world-development-indicators/img/logo-wb-header-en.svg"
